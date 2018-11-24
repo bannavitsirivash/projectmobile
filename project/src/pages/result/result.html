@@ -1,0 +1,19 @@
+<ion-content padding style="background-color: #FFD600">
+  <div class="test">
+    <div style=" border: 0px solid white;">
+      <IMG SRC="../../assets/imgs/re1.png" WIDTH=200 HEIGHT=80>
+        <br><br><br>
+        <span style="font-size: 30px;color: black">ชื่อผู้เล่น : {{name}}</span>
+       <br><br><br>
+     <span style="font-size: 30px;color: black">{{correct}}/10</span>
+     <br><br><br>
+      <span style="font-size: 30px;color: black">Total Score : {{point}}</span>
+    </div>
+    <div style="padding-top: 100px" (click)="test()">
+      <button class="button button1">เล่นต่อ</button>
+    </div>
+    <div style="padding-top: 20px" (click)="test1()">
+      <button class="button2 button3">กลับไปหน้าหลัก</button>
+    </div>
+  </div>
+</ion-content>

@@ -1,0 +1,18 @@
+<ion-content padding style="background-color: #FFD600">
+    <div class="test">
+        <!--<IMG SRC="../../assets/imgs/quiz1.png" WIDTH=50 HEIGHT=50>-->
+      <span style="font-size: 20px;color: white">{{proposition_game}}</span>
+      <div style="padding-top: 10px" (click)="check(1)">
+        <button class="button button1">{{choice_1}}</button>
+      </div>
+      <div style="padding-top: 10px" (click)="check(2)">
+          <button class="button button2">{{choice_2}}</button>
+        </div>
+        <div style="padding-top: 10px" (click)="check(3)">
+          <button class="button button2">{{choice_3}}</button>
+        </div>
+        <div style="padding-top: 10px" (click)="check(4)">
+          <button class="button button2">{{choice_4}}</button>
+        </div>
+    </div>
+  </ion-content>
